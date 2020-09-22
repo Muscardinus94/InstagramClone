@@ -19,4 +19,14 @@ function checkValidation() {
   else window.location = './main.html';
 }
 
+function enterSubmit(e) {
+  if(e.keyCode === 13) {
+    if(!e.target.value) return;
+    e.preventDefault;
+    e.target.parentNode.children[2].click();
+  }
+}
+
 loginButton.addEventListener('click', checkValidation);
+inputId.addEventListener('keyup', enterSubmit);
+inputPw.addEventListener('keyup', enterSubmit);
