@@ -317,7 +317,7 @@ function liveSearchForProfile(e) {
     searchIdResultContainer.style.overflow = "visible"
   } else {
     searchIdResultContainer.style.height = "255px";
-    searchIdResultContainer.style.overflow = "scroll";
+    searchIdResultContainer.style.overflow = "auto";
   }
   dataContainer.length >= 1 ? dataContainer.forEach((data) => createSearchProfileResult(...data)) : createSearchProfileResult();
 }
