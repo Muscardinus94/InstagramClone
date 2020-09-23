@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>repl.it</title>
-  <link href="style/common.css" rel="stylesheet" type="text/css" />
+  <!-- <script type="module" src="./js/data.js"></script> -->
   <!-- Font awesome -->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- SlickJS -->
@@ -70,9 +70,9 @@
               </div>
             </div>
           </div>
-          <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png" alt="">
           <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="">
           <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png" alt="">
+          <img src="https://static.thenounproject.com/png/682477-200.png" alt="">
         </div>
       </div>
     </nav>
@@ -146,7 +146,7 @@
             </div>
             <div class="add-comment">
               <section>
-                <input type="text" class="comment-textarea" placeholder="댓글 달기..." onkeyup="checkActivate(this)"></input>
+                <input type="text" class="comment-textarea" placeholder="댓글 달기..." onkeyup="commentButtonActive(this)"></input>
               </section>
               <input type="submit" class="add-comment-btn" value="게시"</button>
             </div>
@@ -208,7 +208,7 @@
             </div>
             <div class="add-comment">
               <section>
-                <input type="text" class="comment-textarea" placeholder="댓글 달기..." onkeyup="checkActivate(this)"></input>
+                <input type="text" class="comment-textarea" placeholder="댓글 달기..." onkeyup="commentButtonActive(this)"></input>
               </section>
               <button class="add-comment-btn">게시</button>
             </div>
@@ -232,7 +232,7 @@
           <div class="article-img-container">
             <div class="article-img">
               <img src="https://i.ytimg.com/vi/EJ83gdDk-SM/hqdefault.jpg" alt="">
-              <img src="https://lh3.googleusercontent.com/proxy/ojrsmGtwLdAnrW_OJNubxWZPDc6-u85KD_weqjTmIfoaiUGMYbFWRrUxjcJipA6bJDHXqA8ZSlDpjcRvgtSqQKDbX88JbM_jWyL2kj-ZQ2X74jy6_huCH9pi_KF3D_v6AuSSPqtU7XDUNc4h6Xcr4yHnYhetY2IT0VyC5ViryqwFTfjbArRY3E7oTQ04sNSB-YK_fbXe2u_VLrCbrtO8RkAp0gVM-uUE9RmsusefCuhc6YAtr63qNQ2MEcXiKvMR-wTMdFt6UgcnjXPd2jx-59u-MjYp1H-xiJJhH7OJrawv6Z9Fe4SrnG2TvHQuFLzWWIKA_34QkNiSstpynvsoHqfNIIGFxdvueLhVCqs" alt="">
+              <img src="https://i.ytimg.com/vi/hbuxAm4RuFE/maxresdefault.jpg" alt="">
               <img src="https://saengmotmi.netlify.app/static/34a23a27c096f13652cd0f313461907f/1c72d/032201.jpg" alt="">
             </div>
           </div>
@@ -270,7 +270,7 @@
             </div>
             <div class="add-comment">
               <section>
-                <input type="text" class="comment-textarea" placeholder="댓글 달기..." onkeyup="checkActivate(this)"></input>
+                <input type="text" class="comment-textarea" placeholder="댓글 달기..." onkeyup="commentButtonActive(this)"></input>
               </section>
               <button class="add-comment-btn">게시</button>
             </div>

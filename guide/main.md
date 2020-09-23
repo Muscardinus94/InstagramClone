@@ -20,6 +20,7 @@ JS: js/main.js
 이미지 로고: https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png
 텍스트 로고: img/logo_text.png
 
+
 - 우측 메뉴
 탐색: https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png
 하트: https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png
@@ -32,6 +33,7 @@ JS: js/main.js
 말풍선: https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png
 공유: https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png
 북마크: https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png
+홈: https://static.thenounproject.com/png/682477-200.png
 
 
 우측 three dots: https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png

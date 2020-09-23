@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: #fafafa;
@@ -35,6 +39,12 @@ nav {
   width: 344px;
   height: 30px;
   /* border: 1px solid #000; */
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.logo:active {
+  filter: opacity(50%);
 }
 
 .logo img,
@@ -146,6 +156,11 @@ nav {
   position: relative;
 }
 
+.info-container a {
+  text-decoration: none;
+  color: #000;
+}
+
 .search-profile-image {
   position: absolute;
   top: 50%;
@@ -193,6 +208,8 @@ nav {
   height: 25px;
   /* border: 1px solid #000; */
   margin-left: 90px;
+  box-sizing: border-box;
+  padding-right: 10px;
 }
 
 .personal img,
@@ -206,7 +223,7 @@ nav {
 }
 
 .personal-profile {
-  height: 95%;
+  height: 100%;
   width: 25px;
   /* border: 1px solid #000; */
   position: relative;
@@ -495,6 +512,7 @@ article {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .article-profile-threedots img {
@@ -793,21 +811,22 @@ article {
 .add-comment {
   /* border: 1px solid #000; */
   border-top: 1px solid #8e8e8e2f;
-  height: 50%;
+  height: 55%;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
+  display: flex;
 }
 
 .add-comment section {
   /* border: 1px solid red; */
   height: 100%;
-  width: calc(100% - 80px);
+  width: 90%;
   position: relative;
 }
 
 .add-comment input[type=text] {
-  width: 100%;
+  width: 97%;
   position: absolute;
   padding: 0;
   top: 50%;
@@ -823,12 +842,12 @@ article {
 
 .add-comment-btn {
   border: none;
-  position: absolute;
-  background-color: #fff;
-  top: 0;
-  right: 0;
+  /* position: absolute; */
+  background-color: white;
+  /* top: 0;
+  right: 0; */
   height: 100%;
-  width: 50px;
+  width: 10%;
   color: #0094f65e;
   font-weight: 600;
   font-size: 14px;
