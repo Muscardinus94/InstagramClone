@@ -899,6 +899,11 @@ article {
   cursor: pointer;
 }
 
+.profile a {
+  color: black;
+  text-decoration: none;
+}
+
 .profile-img-container {
   width: 85px;
   height: 100%;
@@ -997,6 +1002,11 @@ article {
   height: 50px;
   position: relative;
   box-sizing: border-box;
+}
+
+.recommendation-info a {
+  color: black;
+  text-decoration: none;
 }
 
 .recommendation-info-img-container {

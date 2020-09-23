@@ -190,7 +190,7 @@ function addCommentToFeed(e) {
   newCommentListDiv.className = "comment-list-child";
   const newCommentListDivSpan = document.createElement('span');
   newCommentListDivSpan.className = "comment-id";
-  newCommentListDivSpan.innerText = "hellobeen";
+  newCommentListDivSpan.innerText = "wecode_bootcamp";
   const heartContainerDiv = document.createElement('div');
   heartContainerDiv.className = "comment-heart";
   const heartIcon = document.createElement('i');
@@ -254,16 +254,6 @@ function activatePersonalProfileSubMenu() {
   personalProfileSubMenu.classList.value.includes('active') ? personalProfileSubMenu.classList.remove('active') : personalProfileSubMenu.classList.add('active');
 }
 
-function mainPageStart() {
-  const buttonTarget = document.querySelectorAll('.add-comment-btn');
-  buttonTarget.forEach(button => button.addEventListener('click', addCommentToFeed));
-  inputEnterSubmit();
-  addHeartColorWhenClicked();
-  personalProfileClickSubMenu();
-  searchProfile();
-  putStoryProfile();
-}
-
 function searchProfile() {
   const searchInput = document.querySelector('.search input');
   searchInput.addEventListener('keyup', liveSearchForProfile);
@@ -324,10 +314,10 @@ function liveSearchForProfile(e) {
   });
   if (elementCount <= 5) {
     searchIdResultContainer.style.height = "auto";
-    searchIdResultContainer.style.overflow = "visible";
+    searchIdResultContainer.style.overflow = "visible"
   } else {
     searchIdResultContainer.style.height = "255px";
-    searchIdResultContainer.style.overflow = "auto";
+    searchIdResultContainer.style.overflow = "scroll";
   }
   dataContainer.length >= 1 ? dataContainer.forEach((data) => createSearchProfileResult(...data)) : createSearchProfileResult();
 }
@@ -335,7 +325,7 @@ function liveSearchForProfile(e) {
 function createSearchProfileResult(imgUrl, userId, name, linkUrl) {
   let searchIdResultElement = document.createElement('div');
   searchIdResultElement.className = "search-id-result-element";
-  let searchIdResultContainer = document.querySelector('.search-id-result-container.active');
+  let searchIdResultContainer = document.querySelector('.search-id-result-container');
   if (!imgUrl && !userId && !name) {
     searchIdResultElement.innerHTML = "<span>검색 결과가 없습니다</span>";
   } else {
@@ -365,10 +355,22 @@ function threedotsClickSubMenu() {
     threedotsSubMenuBackground.classList.remove('active');
     threedotsSubMenuElement.classList.remove('active');
   },{once: true});
-  if(threedotsSubMenuBackground.className.includes('active')) threedotsSubMenuBackground.classList.remove('active');
-  else threedotsSubMenuBackground.classList.add('active');
-  if(threedotsSubMenuElement.className.includes('active')) threedotsSubMenuElement.classList.remove('active');
-  else threedotsSubMenuElement.classList.add('active');
+  threedotsSubMenuBackground.className.includes('active') ? threedotsSubMenuBackground.classList.remove('active') : threedotsSubMenuBackground.classList.add('active');
+  threedotsSubMenuElement.className.includes('active') ? threedotsSubMenuElement.classList.remove('active') : threedotsSubMenuElement.classList.add('active');
+}
+
+function commentSubmitButtonEventAdd() {
+  const buttonTarget = document.querySelectorAll('.add-comment-btn');
+  buttonTarget.forEach(button => button.addEventListener('click', addCommentToFeed));
+}
+
+function mainPageStart() {
+  commentSubmitButtonEventAdd();
+  inputEnterSubmit();
+  addHeartColorWhenClicked();
+  personalProfileClickSubMenu();
+  searchProfile();
+  putStoryProfile();
 }
 
 mainPageStart();
@@ -391,7 +393,6 @@ $(function () {
     }]
   });
 });
-
 
 $(function () {
   $('.article-image').slick({
