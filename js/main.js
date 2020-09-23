@@ -1,5 +1,3 @@
-// import DATA from "data";
-// console.log(DATA);
 const PROFILE_DATA = [
   {
     "id": 1,
@@ -98,32 +96,108 @@ const PROFILE_DATA = [
     "name": "김새론",
     "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/118973777_351014246036186_4830603528573754618_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=L6jEUnBKM8sAX_csqpj&oh=95be357e37a7df0b1bcf3a7021324dac&oe=5F94C332",
     "linkUrl": "https://www.instagram.com/ron_sae/"
+  },
+  {
+    "id": 15,
+    "userId": "reveramess_",
+    "name": "강소라",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/110204737_713138809522193_5812723603741340475_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=rustY__k9T4AX-0d1mu&oh=1209247e906123d8215ab32934edef48&oe=5F964C84",
+    "linkUrl": "https://www.instagram.com/reveramess_/"
+  },
+  {
+    "id": 16,
+    "userId": "rovvxhyo",
+    "name": "공효진",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/11417445_1616995708568384_1774259079_a.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=aLDOmaCtxXAAX8pVRsm&oh=8e3d69bb0c0a0252eb7c99965d15553c&oe=5F94FB82",
+    "linkUrl": "https://www.instagram.com/rovvxhyo/"
+  },
+  {
+    "id": 17,
+    "userId": "pinkeh2015",
+    "name": "홍은희",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/10932596_917633528276413_1802208124_a.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=lSmfP_BGz2wAX8DKqBI&oh=5ce72b2f154dbd955834f6628b444fd3&oe=5F95DBA1",
+    "linkUrl": "https://www.instagram.com/pinkeh2015/"
+  },
+  {
+    "id": 18,
+    "userId": "sysysy1102",
+    "name": "김수연",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/14488132_1704213163234903_2697899100145188864_a.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=59cQFK9u7lAAX8Fq6-Y&oh=5f7e73119325bb6abb8fd8975a7931e3&oe=5F95C41A",
+    "linkUrl": "https://www.instagram.com/sysysy1102/"
+  },
+  {
+    "id": 19,
+    "userId": "s911010",
+    "name": "김술가",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/13734482_553701981481434_2107531495_a.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=LWV1qz1Y874AX8i5wks&oh=3332d6c522aa18833a860b83956cda06&oe=5F9505B2",
+    "linkUrl": "https://www.instagram.com/s911010/"
+  },
+  {
+    "id": 20,
+    "userId": "hajiwon1023",
+    "name": "하지원",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/14718098_184830835295494_1315307822862303232_a.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=wC_2TpRsgb0AX8bZs2G&oh=71f057bce74f0ab40e7cd206f8d7fc9a&oe=5F95B576",
+    "linkUrl": "https://www.instagram.com/hajiwon1023/"
+  },
+  {
+    "id": 21,
+    "userId": "honey_lee32",
+    "name": "이하늬",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/67491268_1280683048803873_2961286346074750976_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=JUOei-yO7gEAX_Cf1TO&oh=28ec508f7f124a8188d6375ea86a0d73&oe=5F962196",
+    "linkUrl": "https://www.instagram.com/honey_lee32/"
+  },
+  {
+    "id": 22,
+    "userId": "nambora",
+    "name": "남보라",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/96398401_239591090647890_5617703337815179264_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=6mzag7jlX8IAX_8xTzx&oh=e63f1f6124a88b9d39787c3fb4adf461&oe=5F9313CB",
+    "linkUrl": "https://www.instagram.com/nambora/"
+  },
+  {
+    "id": 23,
+    "userId": "ssinz7",
+    "name": "박신혜",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/13525473_239562676427287_1092224874_a.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=w3vGXPoYWI0AX9L7in_&oh=6728aab4eb4f0ceb3cff8d0a94c6fafb&oe=5F9397CF",
+    "linkUrl": "https://www.instagram.com/ssinz7/"
+  },
+  {
+    "id": 24,
+    "userId": "onestar_p",
+    "name": "박한별",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/34983547_1909665332404907_5969793680020602880_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=rzR8QvlfhwYAX9dH3ux&oh=623ef3c6309f79b6a26389a8d440285a&oe=5F94F46D",
+    "linkUrl": "https://www.instagram.com/onestar_p/"
+  },
+  {
+    "id": 25,
+    "userId": "lightyears81",
+    "name": "조여정",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/93214148_225473025179753_2554179714780495872_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=npSCOqbGGCAAX_xkMJ3&oh=781050457100ebad42a136f272a5d4ac&oe=5F9337D1",
+    "linkUrl": "https://www.instagram.com/lightyears81/"
+  },
+  {
+    "id": 26,
+    "userId": "jinseyun.go",
+    "name": "진세연",
+    "imgUrl": "https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/55961998_2144219755661884_244699173209767936_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=KT2_08Ugdt4AX8CxN-p&oh=98adae7a3d358a449477b5a41c4ada18&oe=5F933BF8",
+    "linkUrl": "https://www.instagram.com/jinseyun.go/"
   }
 ];
 
-// linkUrl 넣기 *************************************
-
-// console.log(PROFILE_DATA);
-
 function addCommentToFeed(e) {
-  // e.target => add-comment-btn
-  // e.target.parentNode => add-comment
-  // e.target.parentNode.previousSibling => comment-list
-  // e.target.parentNode.children[0].children[0] => textarea
-  let commentList = e.target.parentNode.previousElementSibling;
-  let getCommentText = e.target.parentNode.children[0].children[0];
-  let newCommentListDiv = document.createElement('div');
+  const commentList = e.target.parentNode.previousElementSibling;
+  const getCommentText = e.target.parentNode.children[0].children[0];
+  const newCommentListDiv = document.createElement('div');
   newCommentListDiv.className = "comment-list-child";
-  let newCommentListDivSpan = document.createElement('span');
+  const newCommentListDivSpan = document.createElement('span');
   newCommentListDivSpan.className = "comment-id";
   newCommentListDivSpan.innerText = "hellobeen";
-  let heartContainerDiv = document.createElement('div');
+  const heartContainerDiv = document.createElement('div');
   heartContainerDiv.className = "comment-heart";
-  let heartIcon = document.createElement('i');
+  const heartIcon = document.createElement('i');
   heartIcon.className = "fa fa-heart-o";
-  let removeIconContainerDiv = document.createElement('div');
+  const removeIconContainerDiv = document.createElement('div');
   removeIconContainerDiv.className = 'comment-delete';
-  let removeIcon = document.createElement('i');
+  const removeIcon = document.createElement('i');
   removeIcon.className = "fa fa-times";
   removeIcon.addEventListener('click', removeComment);
   heartIcon.addEventListener('click', heartColor);
@@ -139,14 +213,12 @@ function addCommentToFeed(e) {
 }
 
 function commentButtonActive(obj) {
-  // console.log(obj);
-  let addCommentButton = obj.parentNode.parentNode.children[1];
-  // console.log(addCommentButton);
+  const addCommentButton = obj.parentNode.parentNode.children[1];
   obj.value ? addCommentButton.classList.add('active') : addCommentButton.classList.remove('active');
 }
 
 function addHeartColorWhenClicked() {
-  let heartCollection = document.querySelectorAll('.fa-heart-o');
+  const heartCollection = document.querySelectorAll('.fa-heart-o');
   heartCollection.forEach(heart => heart.addEventListener('click', heartColor));
 }
 
@@ -159,7 +231,7 @@ function removeComment(e) {
 }
 
 function inputEnterSubmit() {
-  let commentTextAreaCollection = document.querySelectorAll('.comment-textarea');
+  const commentTextAreaCollection = document.querySelectorAll('.comment-textarea');
   commentTextAreaCollection.forEach((commentTextArea) => commentTextArea.addEventListener('keyup', enterSubmit));
 }
 
@@ -183,7 +255,6 @@ function activatePersonalProfileSubMenu() {
 }
 
 function mainPageStart() {
-  // addCommentButtonActivate();
   const buttonTarget = document.querySelectorAll('.add-comment-btn');
   buttonTarget.forEach(button => button.addEventListener('click', addCommentToFeed));
   inputEnterSubmit();
@@ -194,8 +265,7 @@ function mainPageStart() {
 }
 
 function searchProfile() {
-  let searchInput = document.querySelector('.search input');
-  // console.log(searchInput);
+  const searchInput = document.querySelector('.search input');
   searchInput.addEventListener('keyup', liveSearchForProfile);
 }
 
@@ -209,44 +279,47 @@ function putStoryProfile() {
     tempArr.push(data["userId"]);
     dataContainer.push(tempArr);
   });
-  // console.log(dataContainer);
   dataContainer.forEach((data) => {
     let storyElement = document.createElement('div');
     storyElement.className = "story-element";
     storyElement.innerHTML =
       `
         <div class="story-image">
-          <img src="${data[0]}" alt="">
+            <div class="story-image-inner-circle">
+              <img src="${data[0]}" alt="">
+            </div>
         </div>
         <div class="story-id">
           <span>${data[1]}</span>
         </div>
       `;
-    // console.log(storyElement);
     storyElementContainer.appendChild(storyElement);
   });
 }
 
 function liveSearchForProfile(e) {
   let elementCount = 0;
-  let dataContainer = [];
-  let searchIdResultContainer = document.querySelector('.search-id-result-container');
+  const dataContainer = [];
+  const searchDiv = e.target.parentNode;
+  const searchIdResultContainer = document.querySelector('.search-id-result-container');
   searchIdResultContainer.innerHTML = "";
   if (!e.target.value) {
+    e.target.classList.remove('active');
+    searchDiv.style.setProperty('--search-left', '90px');
     searchIdResultContainer.className = "search-id-result-container";
     return;
   }
-  searchIdResultContainer.className = "search-id-result-container active";
+  searchDiv.style.setProperty('--search-left','10px');
+  e.target.className="active";
+  searchIdResultContainer.classList.add("active");
   PROFILE_DATA.forEach((data) => {
-    if (data["userId"].includes(e.target.value)) {
+    if (data["userId"].includes(e.target.value) || data["name"].includes(e.target.value)) {
       let tempArr = [];
       tempArr.push(data["imgUrl"]);
       tempArr.push(data["userId"]);
       tempArr.push(data["name"]);
       tempArr.push(data["linkUrl"]);
-      // console.log(tempArr);
       dataContainer[elementCount++] = tempArr;
-      // console.log(data["userId"]);
     }
   });
   if (elementCount <= 5) {
@@ -260,38 +333,47 @@ function liveSearchForProfile(e) {
 }
 
 function createSearchProfileResult(imgUrl, userId, name, linkUrl) {
-  // console.log(imgUrl);
   let searchIdResultElement = document.createElement('div');
   searchIdResultElement.className = "search-id-result-element";
   let searchIdResultContainer = document.querySelector('.search-id-result-container.active');
-  // console.log(searchIdResultContainer);
   if (!imgUrl && !userId && !name) {
     searchIdResultElement.innerHTML = "<span>검색 결과가 없습니다</span>";
   } else {
     searchIdResultElement.innerHTML =
       `
-        <div class="search-profile-container">
-          <div class="search-profile-image">
-            <a href=${linkUrl}><img src=${imgUrl} alt=""></a>
+        <a href=${linkUrl}>
+          <div class="search-profile-container">
+            <div class="search-profile-image">
+              <img src=${imgUrl} alt="">
+            </div>
           </div>
-        </div>
-        <div class="info-container">
-          <a href=${linkUrl}>
+          <div class="info-container">
             <span>${userId}</span>
             <span>${name}</span>
-          </a>
-        </div>
+          </div>
+        </a>
       `;
   }
-  // console.log(searchIdResultElement);
   searchIdResultContainer.appendChild(searchIdResultElement);
 }
 
-
+function threedotsClickSubMenu(obj) {
+  const threedotsSubMenuBackground = document.querySelector('.threedots-sub-menu-background');
+  const threedotsSubMenuElement = document.querySelector('.threedots-sub-menu');
+  const threedotsSubMenuClose = document.querySelectorAll('.threedots-sub-menu-element')[6];
+  threedotsSubMenuClose.addEventListener('click', () => {
+    threedotsSubMenuBackground.classList.remove('active');
+    threedotsSubMenuElement.classList.remove('active');
+  },{once: true});
+  if(threedotsSubMenuBackground.className.includes('active')) threedotsSubMenuBackground.classList.remove('active');
+  else threedotsSubMenuBackground.classList.add('active');
+  if(threedotsSubMenuElement.className.includes('active')) threedotsSubMenuElement.classList.remove('active');
+  else threedotsSubMenuElement.classList.add('active');
+}
 
 mainPageStart();
 
-// SlickJS For Feed Image Showing
+// SlickJS For Story And Feed Image Showing
 $(function () {
   $('.story-element-container').slick({
     arrows: true,
@@ -312,7 +394,7 @@ $(function () {
 
 
 $(function () {
-  $('.article-img').slick({
+  $('.article-image').slick({
     arrows: true,
     dots: true,
     infinite: false,

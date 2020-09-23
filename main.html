@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>repl.it</title>
-  <!-- <script type="module" src="./js/data.js"></script> -->
   <!-- Font awesome -->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- SlickJS -->
@@ -30,7 +29,7 @@
           </a>
         </div>
         <div class="search">
-          <input type="text" placeholder="검색">
+          <input type="text" placeholder="검색" >
           <div class="search-id-result-container"></div>
         </div>
         <div class="personal">
@@ -91,13 +90,38 @@
             <div class="article-profile-info-container">
               <div class="article-profile-id">wecode_bootcamp</div>
               <div class="article-profile-name">WeCode - 위코드</div>
-              <div class="article-profile-threedots">
+              <div class="article-profile-threedots" onclick="threedotsClickSubMenu(this)">
                 <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" alt="">
               </div>
+              <!-- <div class="threedots-sub-menu-background">
+                <div class="threedots-sub-menu">
+                  <div class="threedots-sub-menu-element">
+                    <span>신고</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>팔로우 취소</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>게시물로 이동</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>공유하기</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>링크 복사</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>퍼가기</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>취소</span>
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
-          <div class="article-img-container">
-            <div class="article-img">
+          <div class="article-image-container">
+            <div class="article-image">
               <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/landing/bootcamp/boot_2.jpg" alt="">
               <img src="https://media.vlpt.us/images/devmin/post/519de033-a1a0-414c-ba3c-92193ae01d4c/H53A6662.jpg" alt="">
               <img src="https://i.ytimg.com/vi/dEapUsHML3s/maxresdefault.jpg" alt="">
@@ -134,15 +158,6 @@
           </div>
           <div class="article-comment">
             <div class="comment-list">
-              <!-- <div class="comment-list-child">
-                <span class="comment-id">hellobeen</span>adsfdsafsdaf
-                <div class="comment-heart">
-                  <i class="fa fa-heart-o"></i>
-                </div>
-                <div class="comment-delete">
-                  <i class="fa fa-times"></i>
-                </div>
-              </div> -->
             </div>
             <div class="add-comment">
               <section>
@@ -162,13 +177,38 @@
             <div class="article-profile-info-container">
               <div class="article-profile-id">wecode_bootcamp</div>
               <div class="article-profile-name">WeCode - 위코드</div>
-              <div class="article-profile-threedots">
+              <div class="article-profile-threedots" onclick="threedotsClickSubMenu(this)">
                 <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" alt="">
               </div>
+              <!-- <div class="threedots-sub-menu-background">
+                <div class="threedots-sub-menu">
+                  <div class="threedots-sub-menu-element">
+                    <span>신고</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>팔로우 취소</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>게시물로 이동</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>공유하기</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>링크 복사</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>퍼가기</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>취소</span>
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
-          <div class="article-img-container">
-            <div class="article-img">
+          <div class="article-image-container">
+            <div class="article-image">
               <img src="https://media.vlpt.us/images/taeha7b/post/30051c48-eebc-464d-9195-20ca6e9285fa/Image%20from%20iOS%20(2).jpg" alt="">
               <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/landing/bootcamp/boot_4_1.jpg" alt="">
               <img src="https://soongyu.github.io/media/wecode.jpg" alt="">
@@ -224,13 +264,38 @@
             <div class="article-profile-info-container">
               <div class="article-profile-id">wecode_bootcamp</div>
               <div class="article-profile-name">WeCode - 위코드</div>
-              <div class="article-profile-threedots">
+              <div class="article-profile-threedots" onclick="threedotsClickSubMenu(this)">
                 <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" alt="">
               </div>
+              <!-- <div class="threedots-sub-menu-background">
+                <div class="threedots-sub-menu">
+                  <div class="threedots-sub-menu-element">
+                    <span>신고</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>팔로우 취소</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>게시물로 이동</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>공유하기</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>링크 복사</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>퍼가기</span>
+                  </div>
+                  <div class="threedots-sub-menu-element">
+                    <span>취소</span>
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
-          <div class="article-img-container">
-            <div class="article-img">
+          <div class="article-image-container">
+            <div class="article-image">
               <img src="https://i.ytimg.com/vi/EJ83gdDk-SM/hqdefault.jpg" alt="">
               <img src="https://i.ytimg.com/vi/hbuxAm4RuFE/maxresdefault.jpg" alt="">
               <img src="https://saengmotmi.netlify.app/static/34a23a27c096f13652cd0f313461907f/1c72d/032201.jpg" alt="">
@@ -289,56 +354,6 @@
             <div class="profile-name">WeCode | 위코드</div>
           </div>
         </div>
-        <!-- <div class="story">
-          <div class="story-header">
-            <span class="header-left">스토리</span>
-            <span class="header-right">모두 보기</span>
-          </div>
-          <div class="story-info">
-            <div class="story-info-img-container">
-              <div class="story-info-img">
-                <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/58004192_2433784366854980_2844436572466577408_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=peAlYpF-Br0AX8oHSAZ&oh=d47abca534bbef5fa54ea84599a6c1a0&oe=5F903344" alt="">
-              </div>
-            </div>
-            <div class="story-info-container">
-                <div class="story-info-id">ryusdb</div>
-                <div class="story-info-updatetime">2시간 전</div>
-            </div>
-          </div>
-          <div class="story-info">
-            <div class="story-info-img-container">
-              <div class="story-info-img">
-                <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/28434316_190831908314778_1954023563480530944_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=gjs9jKIkHe8AX8GiOEh&oh=5e60f4ba1177c6f4998031ac8fc20069&oe=5F8DE0E0" alt="">
-              </div>
-            </div>
-              <div class="story-info-container">
-                <div class="story-info-id">dlwlrma</div>
-                <div class="story-info-updatetime">2시간 전</div>
-              </div>
-          </div>
-          <div class="story-info">
-            <div class="story-info-img-container">
-              <div class="story-info-img">
-                <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/20184707_2475441045927839_6341421179915468800_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=0WQJX1apDRYAX9tsje6&oh=320d7b04d195b54ce64ef31e109a0189&oe=5F8E57AF" alt="">
-              </div>
-            </div>
-              <div class="story-info-container">
-                <div class="story-info-id">hellobeen</div>
-                <div class="story-info-updatetime">2시간 전</div>
-              </div>
-          </div>
-          <div class="story-info">
-            <div class="story-info-img-container">
-              <div class="story-info-img">
-                <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/118298212_307164543714416_1453405827554668420_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=XYXta0WfCLUAX-PjenY&oh=cc021248e441d9447193e267c726c31f&oe=5F8FD47D" alt="">
-              </div>
-            </div>
-              <div class="story-info-container">
-                <div class="story-info-id">dlehdgnl</div>
-                <div class="story-info-updatetime">2시간 전</div>
-              </div>
-          </div>
-        </div> -->
         <div class="recommendation">
           <div class="recommendation-header">
             <span class="header-left">회원님을 위한 추천</span>
@@ -420,7 +435,32 @@
       </div>
     </main>
   </div>
-  <script src="js/main.js"></script>
+  <div class="threedots-sub-menu-background">
+    <div class="threedots-sub-menu">
+      <div class="threedots-sub-menu-element">
+        <span>신고</span>
+      </div>
+      <div class="threedots-sub-menu-element">
+        <span>팔로우 취소</span>
+      </div>
+      <div class="threedots-sub-menu-element">
+        <span>게시물로 이동</span>
+      </div>
+      <div class="threedots-sub-menu-element">
+        <span>공유하기</span>
+      </div>
+      <div class="threedots-sub-menu-element">
+        <span>링크 복사</span>
+      </div>
+      <div class="threedots-sub-menu-element">
+        <span>퍼가기</span>
+      </div>
+      <div class="threedots-sub-menu-element">
+        <span>취소</span>
+      </div>
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
