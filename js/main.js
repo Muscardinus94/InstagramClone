@@ -357,7 +357,7 @@ function createSearchProfileResult(imgUrl, userId, name, linkUrl) {
   searchIdResultContainer.appendChild(searchIdResultElement);
 }
 
-function threedotsClickSubMenu(obj) {
+function threedotsClickSubMenu() {
   const threedotsSubMenuBackground = document.querySelector('.threedots-sub-menu-background');
   const threedotsSubMenuElement = document.querySelector('.threedots-sub-menu');
   const threedotsSubMenuClose = document.querySelectorAll('.threedots-sub-menu-element')[6];
