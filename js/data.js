@@ -182,5 +182,3 @@ const PROFILE_DATA = [
     "linkUrl": "https://www.instagram.com/jinseyun.go/"
   }
 ];
-
-export default PROFILE_DATA;
