@@ -2,7 +2,7 @@ const loginButton = document.querySelector('button');
 const inputId = document.querySelector('input[type=text]');
 const inputPw = document.querySelector('input[type=password]');
 
-function checkButtonActive() {
+function checkButtonActivation() {
   if (inputId.value && inputPw.value) loginButton.className = "active";
   else loginButton.className = "";
 }
@@ -13,7 +13,7 @@ function checkValidation() {
   else window.location = './main.html';
 }
 
-function enterSubmit(e) {
+function enterLogin(e) {
   if (e.keyCode === 13) {
     if (!e.target.value) return;
     e.preventDefault;
@@ -22,5 +22,5 @@ function enterSubmit(e) {
 }
 
 loginButton.addEventListener('click', checkValidation);
-inputId.addEventListener('keyup', enterSubmit);
-inputPw.addEventListener('keyup', enterSubmit);
+inputId.addEventListener('keyup', enterLogin);
+inputPw.addEventListener('keyup', enterLogin);
