@@ -15,7 +15,7 @@ function addCommentToFeed(e) {
   const removeIcon = document.createElement('i');
   removeIcon.className = "fa fa-times";
   removeIcon.addEventListener('click', removeComment);
-  heartIcon.addEventListener('click', heartColor);
+  heartIcon.addEventListener('click', toggleHeartColor);
   heartContainerDiv.appendChild(heartIcon);
   removeIconContainerDiv.appendChild(removeIcon);
   newCommentListDiv.appendChild(newCommentListDivSpan);
@@ -27,17 +27,17 @@ function addCommentToFeed(e) {
   commentList.appendChild(newCommentListDiv);
 }
 
-function commentButtonActive(obj) {
+function activateCommentButton(obj) {
   const addCommentButton = obj.parentNode.parentNode.children[1];
   obj.value ? addCommentButton.classList.add('active') : addCommentButton.classList.remove('active');
 }
 
 function addHeartColorWhenClicked() {
   const heartCollection = document.querySelectorAll('.fa-heart-o');
-  heartCollection.forEach(heart => heart.addEventListener('click', heartColor));
+  heartCollection.forEach(heart => heart.addEventListener('click', toggleHeartColor));
 }
 
-function heartColor(e) {
+function toggleHeartColor(e) {
   e.target.className = e.target.className === "fa fa-heart-o" ? "fa fa-heart" : "fa fa-heart-o";
 }
 
@@ -45,7 +45,7 @@ function removeComment(e) {
   e.target.parentNode.parentNode.remove();
 }
 
-function inputEnterSubmit() {
+function enterPushSubmit() {
   const commentTextAreaCollection = document.querySelectorAll('.comment-textarea');
   commentTextAreaCollection.forEach((commentTextArea) => commentTextArea.addEventListener('keyup', enterSubmit));
 }
@@ -74,7 +74,7 @@ function searchProfile() {
   searchInput.addEventListener('keyup', liveSearchForProfile);
 }
 
-function putStoryProfile() {
+function allocateStoryProfileList() {
   let dataContainer = [];
   let storyElementContainer = document.querySelector('.story-element-container');
   PROFILE_DATA.forEach((data) => {
@@ -162,7 +162,7 @@ function createSearchProfileResult(imgUrl, userId, name, linkUrl) {
   searchIdResultContainer.appendChild(searchIdResultElement);
 }
 
-function threedotsClickSubMenu() {
+function clickThreedotsDisplaySubMenu() {
   const threedotsSubMenuBackground = document.querySelector('.threedots-sub-menu-background');
   const threedotsSubMenuElement = document.querySelector('.threedots-sub-menu');
   const threedotsSubMenuClose = document.querySelectorAll('.threedots-sub-menu-element')[6];
@@ -181,11 +181,11 @@ function commentSubmitButtonEventAdd() {
 
 function mainPageStart() {
   commentSubmitButtonEventAdd();
-  inputEnterSubmit();
+  enterPushSubmit();
   addHeartColorWhenClicked();
   personalProfileClickSubMenu();
   searchProfile();
-  putStoryProfile();
+  allocateStoryProfileList();
 }
 
 mainPageStart();
